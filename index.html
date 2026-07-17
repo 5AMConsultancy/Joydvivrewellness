@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joy D'Vivre Wellness — Biokinetics, Wellness Coaching &amp; Retreats | Knysna</title>
+  <meta name="description" content="Joy D'Vivre Wellness — Liesl Joy Medeira, biokineticist, wellness coach and speaker in Knysna, South Africa. Biokinetic rehabilitation, corporate wellness, retreats and somatic wellness workshops. Your life matters and your legacy is waiting to be written.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%232A9D8F'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Georgia,serif'%3EJ%3C/text%3E%3C/svg%3E">
+  <script>
+    /* Elegant fallback for photos not yet added to /images — runs before anything else */
+    function imgFallback(img) {
+      img.onerror = null;
+      var i = parseInt(img.dataset.ph || '0', 10);
+      var hues = ['#2A9D8F', '#3AA69E', '#35A398', '#2F9C8E', '#41ADA0', '#2A9D8F', '#38A79A', '#31A093', '#45B1A4'];
+      var c = hues[i % hues.length];
+      var svg = "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'>" +
+        "<defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>" +
+        "<stop offset='0' stop-color='" + c + "' stop-opacity='0.28'/>" +
+        "<stop offset='1' stop-color='" + c + "' stop-opacity='0.55'/></linearGradient></defs>" +
+        "<rect width='400' height='400' fill='#EFF7F6'/><rect width='400' height='400' fill='url(#g)'/>" +
+        "<g fill='none' stroke='#FFFFFF' stroke-width='7' stroke-linecap='round' opacity='0.9' transform='translate(200,205)'>" +
+        "<path d='M0,45 C-42,18 -34,-38 0,-58 C34,-38 42,18 0,45 Z'/>" +
+        "<path d='M0,45 C-70,42 -86,-6 -62,-34 C-30,-30 -8,4 0,45 Z'/>" +
+        "<path d='M0,45 C70,42 86,-6 62,-34 C30,-30 8,4 0,45 Z'/></g></svg>";
+      img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+      img.classList.add('is-placeholder');
+    }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Joy D'Vivre Wellness — home">
+        <img src="images/logo.png" alt="Joy D'Vivre Wellness" class="logo-img">
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#offer" class="nav-link">What We Offer</a></li>
+          <li><a href="#courses" class="nav-link">Wellness Courses</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-social">
+          <a href="https://instagram.com/joydvivrewellness" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://m.facebook.com/joydvivrefitfamily" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5.5v3.5H8V21h3.5v-7.5h2.8l.7-3.5h-3.5V7.8c0-.9.6-1.3 1.5-1.3H15V3z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@joy_dvivre_wellness" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 4v10.5a3.75 3.75 0 1 1-3.75-3.75"/><path d="M14 4c.5 2.5 2.2 4.3 5 4.5"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/liesl-joy-medeira-75085929" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17M8 7.2v.1M12 17v-4a2.3 2.3 0 0 1 4.6 0v4"/></svg>
+          </a>
+        </div>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-blob" aria-hidden="true">
+        <svg viewBox="0 0 600 600"><defs><linearGradient id="blobg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A9D8F" stop-opacity="0.16"/><stop offset="1" stop-color="#2A9D8F" stop-opacity="0.05"/></linearGradient></defs><path fill="url(#blobg)" d="M431,318Q419,386,357,415Q295,444,229,428Q163,412,118,361Q73,310,90,241Q107,172,163,130Q219,88,289,94Q359,100,401,155Q443,210,431,318Z"/></svg>
+      </div>
+      <div class="hero-blob hero-blob--right" aria-hidden="true">
+        <svg viewBox="0 0 600 600"><path fill="#2A9D8F" opacity="0.07" d="M418,301Q404,352,362,389Q320,426,259,430Q198,434,148,394Q98,354,97,288Q96,222,141,176Q186,130,250,118Q314,106,368,145Q422,184,427,242Q432,300,418,301Z"/></svg>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-logo reveal">
+          <img src="images/logo.jpg" alt="Joy D'Vivre Wellness logo">
+        </div>
+        <p class="hero-eyebrow reveal">Biokineticist &middot; Wellness Coach &middot; Speaker</p>
+        <h1 class="reveal">Your life matters and your legacy is waiting to be written.</h1>
+        <p class="hero-sub reveal">Mind, body and soul — living to your full potential, guided with over two decades of care and experience.</p>
+        <div class="hero-actions reveal">
+          <a href="#contact" class="btn btn-primary">Begin Your Journey</a>
+          <a href="#offer" class="btn btn-ghost">What We Offer</a>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ============ MISSION ============ -->
+    <section class="section mission">
+      <div class="container narrow">
+        <p class="section-eyebrow reveal">A Warm Welcome</p>
+        <h2 class="reveal">Passion &amp; Purpose</h2>
+        <p class="lead reveal">My passion and purpose is to help you live your best life. Mind, body and soul — living to your full potential.</p>
+        <p class="reveal">25 years of experience and a dedication to healthy living has taught me some habits and disciplines that I teach, practice and guide you with.</p>
+        <p class="mission-tagline reveal">Your life matters and your legacy is waiting to be written.</p>
+      </div>
+    </section>
+
+    <!-- wave -->
+    <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#EFF7F6" d="M0,48 C240,88 480,8 720,32 C960,56 1200,80 1440,40 L1440,90 L0,90 Z"/></svg></div>
+
+    <!-- ============ SPECIALTIES ============ -->
+    <section class="section specialties tint">
+      <div class="container">
+        <p class="section-eyebrow reveal">What I Specialize In</p>
+        <h2 class="reveal">Guiding Every Part of Your Wellbeing</h2>
+        <div class="cards-grid stagger">
+          <div class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-6 4 12 2-6h6"/></svg></div>
+            <h3>Biokinetic Rehabilitation</h3>
+            <p>Movement as medicine — restoring strength and mobility after injury, surgery or chronic illness.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg></div>
+            <h3>Corporate Wellness</h3>
+            <p>Healthier, happier teams through movement, stress management and workplace wellbeing.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 13 13l-4.5 2.5L11 11z"/></svg></div>
+            <h3>Personal Wellness Coaching</h3>
+            <p>One-on-one guidance for nutrition, movement, goal setting and personal growth.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v10"/><rect x="9" y="3" width="6" height="10" rx="3"/><path d="M6 11a6 6 0 0 0 12 0M12 17v4M9 21h6"/></svg></div>
+            <h3>Speaker</h3>
+            <p>Motivational talks on health, purpose and personal development for every audience.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></div>
+            <h3>Wellness Retreats</h3>
+            <p>Restorative escapes to reset, reflect and reconnect with what matters most.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21C7 17 4 13.5 4 10a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 3.5-3 7-8 11z"/></svg></div>
+            <h3>Mind–Body–Soul</h3>
+            <p>A whole-person approach that nurtures every dimension of who you are.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials tint">
+      <div class="container">
+        <p class="section-eyebrow reveal">Kind Words</p>
+        <h2 class="reveal">Stories From the People I Walk Beside</h2>
+        <div class="testimonial-grid stagger">
+          <figure class="testimonial reveal">
+            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote>Liesl has been our biokineticist for nine years. From rehabilitating a ruptured Achilles to keeping our seventy-plus bodies moving, she has kept us active, strong and smiling.</blockquote>
+            <figcaption>Lynn &amp; Rudi Oudmayer</figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote>After hip and pelvic surgery following cancer, Liesl guided my rehabilitation every step of the way. I've regained my mobility and strength — and I'm back on the golf course.</blockquote>
+            <figcaption>Dave Phillips</figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+            <blockquote>I started biokinetics reluctantly at an older age for my back, knees and hips. Now at 80 I attend weekly sessions. Liesl is professional, gentle and kind.</blockquote>
+            <figcaption>Anne Roberts</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- wave -->
+    <div class="wave flip" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#EFF7F6" d="M0,48 C240,88 480,8 720,32 C960,56 1200,80 1440,40 L1440,90 L0,90 Z"/></svg></div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about-inner">
+          <div class="about-text">
+            <p class="section-eyebrow reveal">About</p>
+            <h2 class="reveal">Liesl Joy Medeira</h2>
+            <p class="about-title reveal">Biokineticist, Wellness Coach &amp; Speaker</p>
+            <p class="reveal">The Joy of Life <em>(Joi D'Vivre)</em> has always been my inspiration. As wife, business owner and mom of three, the daily reminder and disciplines towards that joy of life are constantly needed. Life moves fast and our dreams often go forgotten.</p>
+            <p class="reveal">I have degrees in Human Movement Science and Psychology and an Honours in Biokinetics. With 25 years of local and international experience in the wellness industry, I am inspired to guide you to live your joy of life.</p>
+            <p class="about-signoff reveal">Let's live and leave a legacy&hellip;</p>
+          </div>
+          <div class="about-side">
+            <div class="about-photo reveal">
+              <img src="images/about.jpg" alt="Liesl Joy Medeira" data-ph="0" onerror="imgFallback(this)">
+            </div>
+            <div class="about-stats stagger">
+            <div class="stat reveal"><span class="stat-num">25</span><span class="stat-label">Years of local &amp; international experience</span></div>
+            <div class="stat reveal"><span class="stat-num">3</span><span class="stat-label">Degrees — Human Movement Science, Psychology &amp; Honours in Biokinetics</span></div>
+            <div class="stat reveal"><span class="stat-num">1</span><span class="stat-label">Purpose — guiding you to live your joy of life</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- wave -->
+    <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#EFF7F6" d="M0,48 C240,88 480,8 720,32 C960,56 1200,80 1440,40 L1440,90 L0,90 Z"/></svg></div>
+
+    <!-- ============ WHAT WE OFFER ============ -->
+    <section class="section offer tint" id="offer">
+      <div class="container">
+        <p class="section-eyebrow reveal">What We Offer</p>
+        <h2 class="reveal">Care Shaped Around You</h2>
+        <div class="offer-grid stagger">
+          <div class="offer-card reveal">
+            <h3>Biokinetic Rehabilitation</h3>
+            <ul>
+              <li>Chronic illness management</li>
+              <li>Lower back rehabilitation</li>
+              <li>Posture correction</li>
+              <li>Parkinson's Disease exercises</li>
+              <li>Post-operative rehabilitation</li>
+              <li>Cardiac disease management</li>
+              <li>Sports injuries</li>
+            </ul>
+          </div>
+          <div class="offer-card reveal">
+            <h3>Wellness Retreats</h3>
+            <ul>
+              <li>Wellness assessment with personal follow-up</li>
+              <li>Goal setting guidance</li>
+              <li>Gentle exercises &amp; stretches</li>
+              <li>Life coaching and motivation</li>
+            </ul>
+          </div>
+          <div class="offer-card reveal">
+            <h3>Corporate Wellness</h3>
+            <ul>
+              <li>Team building</li>
+              <li>Stress management</li>
+              <li>Workplace exercises</li>
+              <li>Office-hours nutrition guidance</li>
+              <li>Ergonomic office setup</li>
+            </ul>
+          </div>
+          <div class="offer-card reveal">
+            <h3>Personal Wellness Coaching</h3>
+            <ul>
+              <li>Understanding your nutritional needs</li>
+              <li>Personal development</li>
+              <li>Personalized exercise guidance</li>
+              <li>Goal setting</li>
+            </ul>
+          </div>
+          <div class="offer-card reveal">
+            <h3>Speaker</h3>
+            <ul>
+              <li>Motivational speaking</li>
+              <li>Health &amp; nutrition talks</li>
+              <li>All-age audiences</li>
+              <li>Personal development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WELLNESS COURSES ============ -->
+    <section class="section courses" id="courses">
+      <div class="container">
+        <p class="section-eyebrow reveal">Wellness Courses</p>
+        <h2 class="reveal">Somatic Wellness Workshops</h2>
+        <div class="courses-inner">
+          <div class="courses-text reveal">
+            <p class="lead">Somatic wellness is the practice of reconnecting mind and body — learning to listen to what your body is telling you, releasing stored tension, and moving with awareness and intention.</p>
+            <p>Each workshop gently weaves together practices that calm the nervous system, restore mobility and reawaken the connection between how you feel and how you move.</p>
+            <p class="courses-note">Workshops are run in different areas of South Africa, and online internationally. Contact Joy D'Vivre Wellness via <a href="mailto:joydvivremail@gmail.com">email</a>, <a href="https://wa.me/27845764984" target="_blank" rel="noopener">WhatsApp</a> or social media to find a workshop that suits you.</p>
+          </div>
+          <div class="courses-elements stagger">
+            <div class="element reveal"><span class="element-dot" aria-hidden="true"></span>Light Exercises</div>
+            <div class="element reveal"><span class="element-dot" aria-hidden="true"></span>Breath Work</div>
+            <div class="element reveal"><span class="element-dot" aria-hidden="true"></span>Meditation</div>
+            <div class="element reveal"><span class="element-dot" aria-hidden="true"></span>Mobility</div>
+            <div class="element reveal"><span class="element-dot" aria-hidden="true"></span>Somatic Movement</div>
+          </div>
+        </div>
+        <div class="topics reveal">
+          <h3>Other Workshop Topics</h3>
+          <div class="topic-chips">
+            <span class="chip">Mind, Body and Soul</span>
+            <span class="chip">Boost Your Energy Levels</span>
+            <span class="chip">Depression, Anxiety &amp; Exercise</span>
+            <span class="chip">Your Purpose</span>
+            <span class="chip">Relationships &amp; Community</span>
+            <span class="chip">Tripod of Wellness</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- wave -->
+    <div class="wave" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#EFF7F6" d="M0,48 C240,88 480,8 720,32 C960,56 1200,80 1440,40 L1440,90 L0,90 Z"/></svg></div>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery tint" id="gallery">
+      <div class="container">
+        <p class="section-eyebrow reveal">Gallery</p>
+        <h2 class="reveal">Moments in Motion</h2>
+        <div class="gallery-grid stagger">
+          <img src="images/gallery-1.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="1" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-2.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="2" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-3.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="3" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-4.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="4" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-5.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="5" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-6.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="6" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-7.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="7" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-8.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="8" onerror="imgFallback(this)" class="reveal" loading="lazy">
+          <img src="images/gallery-9.jpg" alt="Joy D'Vivre Wellness in practice" data-ph="9" onerror="imgFallback(this)" class="reveal" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- wave -->
+    <div class="wave flip" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#EFF7F6" d="M0,48 C240,88 480,8 720,32 C960,56 1200,80 1440,40 L1440,90 L0,90 Z"/></svg></div>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <p class="section-eyebrow reveal">Contact</p>
+        <h2 class="reveal">Let's Begin Writing Your Legacy</h2>
+        <p class="lead center reveal">Reach out for a session, a workshop, a retreat — or simply a conversation about where to start.</p>
+        <div class="contact-grid stagger">
+          <a class="contact-card reveal" href="mailto:joydvivremail@gmail.com">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+            <h3>Email</h3>
+            <p>joydvivremail@gmail.com</p>
+          </a>
+          <div class="contact-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></div>
+            <h3>Phone / WhatsApp</h3>
+            <p><a href="tel:+27845764984">+27 84 576 4984</a></p>
+            <span class="contact-hint"><a href="tel:+27845764984">Call</a> &middot; <a href="https://wa.me/27845764984" target="_blank" rel="noopener">WhatsApp</a></span>
+          </div>
+          <div class="contact-card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4-4.5-7-8-7-11.5a7 7 0 0 1 14 0C19 13 16 16.5 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div>
+            <h3>Visit</h3>
+            <p>Long Street, Knysna<br>South Africa</p>
+          </div>
+        </div>
+        <div class="contact-social reveal">
+          <p>Or find me on social media:</p>
+          <div class="social-row">
+            <a href="https://instagram.com/joydvivrewellness" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://m.facebook.com/joydvivrefitfamily" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5.5v3.5H8V21h3.5v-7.5h2.8l.7-3.5h-3.5V7.8c0-.9.6-1.3 1.5-1.3H15V3z"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@joy_dvivre_wellness" target="_blank" rel="noopener" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 4v10.5a3.75 3.75 0 1 1-3.75-3.75"/><path d="M14 4c.5 2.5 2.2 4.3 5 4.5"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/liesl-joy-medeira-75085929" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17M8 7.2v.1M12 17v-4a2.3 2.3 0 0 1 4.6 0v4"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-brand">Joy D'Vivre Wellness</p>
+      <p class="footer-tagline">Your life matters and your legacy is waiting to be written.</p>
+      <div class="social-row">
+        <a href="https://instagram.com/joydvivrewellness" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://m.facebook.com/joydvivrefitfamily" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5.5v3.5H8V21h3.5v-7.5h2.8l.7-3.5h-3.5V7.8c0-.9.6-1.3 1.5-1.3H15V3z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@joy_dvivre_wellness" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 4v10.5a3.75 3.75 0 1 1-3.75-3.75"/><path d="M14 4c.5 2.5 2.2 4.3 5 4.5"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/liesl-joy-medeira-75085929" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17M8 7.2v.1M12 17v-4a2.3 2.3 0 0 1 4.6 0v4"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year">2026</span> Joy D'Vivre Wellness &middot; Long Street, Knysna, South Africa</p>
+    </div>
+  </footer>
+
+  <!-- Background music: drop an MP3 at audio/ambient.mp3 to enable -->
+  <audio id="bg-music" src="audio/ambient.mp3" loop preload="metadata"></audio>
+  <button class="music-toggle" id="music-toggle" aria-label="Play music" aria-pressed="false" hidden>
+    <svg class="icon-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/></svg>
+    <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+  </button>
+
+  <script src="js/main.js?v=3" defer></script>
+</body>
+</html>
